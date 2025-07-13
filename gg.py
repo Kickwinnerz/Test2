@@ -1799,9 +1799,11 @@ def ____old____(uid,pas,tl):
 			elif "session_key" in po:
 				print(f"\r\r{green}<|DEVI-OK|> {uid} ● {ps}")
 				open("/sdcard/DEVI-OLD-OK.txt",'a').write(str(uid)+"|"+str(ps)+"\n");ok+=1
-				break
-			else:pass
-			def meyexudi():
+break
+            else:continue
+        loop+=1
+    except Exception as e:time.sleep(30)
+def meyexudi():
   os.system('clear')
   print(logo)
   
@@ -1823,7 +1825,5 @@ def ____old____(uid,pas,tl):
 print(logo)
 meyexudi()
 main()
-		loop+=1
-	except Exception as e:pass
-#---------------------------| END |---------------------------#
-_____menux_____()
+			
+			
